@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 .App {
   text-align: center;
 }
@@ -35,4 +36,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.emoji{
+  font-size: 4rem;
+  cursor: pointer;
+}
+
+.emojiContainer{
+  /* border : 3px solid red; */
+  max-width : 800px;
+  width : 70%;
+  margin : auto;
+}
+
+.heading{
+  font-weight: bolder;
+  letter-spacing: 2px;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.font-change{
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.input-ele{
+  padding : 1rem;
+  border-radius: 15px;
+  outline: none;
+  border : 3px solid black;
+  font-size: 1.1rem;
+}
+
+body{
+  background-color: rgb(233, 233, 103);
 }
